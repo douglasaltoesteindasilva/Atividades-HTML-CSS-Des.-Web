@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>7-3</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <hr>
+
+    <form action="processar.php" method="post" enctype="multipart/form-data">        
+        <fieldset>
+            <legend>Cor</legend>
+            <input type="radio" name="cor" id="corVermelho" value="s">
+            <label for="corVermelho">Vermelho</label>
+            <input type="radio" name="cor" id="corVerde" value="s">
+            <label for="corVerde">Verde</label>
+            <input type="radio" name="cor" id="corAzul" value="s">
+            <label for="corAzul">Azul</label>
+        </fieldset>
+
+        <div>
+            <button type="submit">Enviar</button>
+        </div>
+        
+    </form>
+</body>
+</html>
